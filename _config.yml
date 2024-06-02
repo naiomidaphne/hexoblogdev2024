@@ -7,12 +7,13 @@ title: Daphne 前端開發學習日記
 subtitle: 這是Daphne分享自己前端的學習過程
 description: 撓撓頭，寫 code 去
 keywords: 前端, UI設計, CSS, HTML5, Javascript
-author: Daphne Shenlanguage: zh-TW
+author: Daphne Shen
+language: zh-TW
 timezone: Asia/Taipei
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://naiomidaphne.github.io/hexoblogdev2024
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -95,9 +96,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/naiomidaphne/hexoblogdev2024
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
