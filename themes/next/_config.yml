@@ -43,7 +43,7 @@ scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
-darkmode: ture
+darkmode: true
 
 
 # ---------------------------------------------------------------
@@ -157,14 +157,14 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/naiomidaphne || fab fa-github
-  #E-Mail: daphne7682001@gmail.com || fa fa-envelope
+  GitHub: https://github.com/naiomidaphne || fab fa-github
+  E-Mail: mailto:daphne7682001@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
-  #Instagram: https://instagram.com/naiophne || fab fa-instagram
+  Instagram: https://instagram.com/naiophne || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
